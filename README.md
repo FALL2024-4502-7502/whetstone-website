@@ -12,9 +12,7 @@
 	<p>This is my first site that I am creating for class. During the semester, I will add more information about my work in journalism.</p>
 
 	<a href="mailto:example@thing.com">
-
 		<img src="img/IMG_3962.png" alt="A Photo of Me">
-
 	</a>
 
 </body>
