@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #c799f0;
+    background-color: #dde8eb;
     font-family: Monserrat, sans-serif;
     border: 1px #9fb6c3;
     margin: 0;
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: #9fb6c3;
+    background-color: #c799f0;
     text-align: center;
     font-family: Cormorant Garamond, serif;
     font-size: 25px;
@@ -30,6 +30,7 @@ header {
 nav {
     margin: 20px 0;
     text-align: center;
+    background-color: #dde8eb;
 }
 
 nav ul {
@@ -42,6 +43,7 @@ nav li {
 
 nav a {
     text-decoration: none;
+    background-color: #dde8eb;
     color: #011f4b;
     font-family: Kanit, sans-serif;
     font-size: 18px;
@@ -53,7 +55,7 @@ nav a:hover { text-decoration: none; }
 
 main {
     text-align: center;
-    background-color: #9fb6c3;
+    background-color: #aecacf;
     color: #4c177a;
     padding: 20px;
     font-family: Poppins, sans-serif;
@@ -69,11 +71,11 @@ main img {
 
 footer {
     margin-top: auto;
-    background-color: #007bff;
+    background-color: #011f4b;
     color: #ffffff;
-    font-size: 22px;
+    font-size: 28px;
     text-align: center;
-    padding: 10px;
+    padding: 50px;
     width: 100%;
 }
 
