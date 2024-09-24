@@ -1,0 +1,121 @@
+
+body {
+
+justify-content: center;
+margin: 0;
+padding: 0;
+height: 100%;
+
+}
+
+
+a: Home {
+    color: grey;
+    text-decoration: none;
+}
+
+main {
+    max-width: auto;
+    margin: none;
+    font-size: 1rem;
+    background-color: #9fb6c3;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px; 
+    font-style: auto;
+    color: #ffffff;
+    justify-content: center;
+    align-content: center;
+}
+
+img {
+    align-items: center;
+   width: 100%;
+}
+
+
+p {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 800;
+    align-items: center;
+    font-size: 1rem;
+    background-color: #9fb6c3;
+    color: #ffffff;
+    max-width: auto;
+    margin: none;
+    align-content: center;
+}
+
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    color: #ffffff;
+    font-weight: 800px;
+    font-style: normal;
+    font-size: 2rem;
+    margin: none;
+
+}
+
+nav {
+    font-family: "Kanit", sans-serif;
+    background-color: #9fb6c3;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+nav a: My Current Portfolio{
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #011f4b;
+    align-content: center;
+}
+
+nav a: LinkedIn Profile{
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #011f4b;
+    align-content: center;
+
+nav a: My Radio Show{
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #011f4b;
+    align-content: center;
+}
+
+nav a: Rock M Baseball Article{
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #011f4b;
+    align-content: center;
+}
+
+nav a: Another Page{
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #011f4b;
+    align-content: center;
+}
+
+nav a: External Site{
+     font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #011f4b;
+    align-content: center;
+}
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+
+
