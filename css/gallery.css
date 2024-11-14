@@ -1,0 +1,288 @@
+body, h1, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dde8eb;
+    font-family: Monserrat, sans-serif;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #c799f0;
+    text-align: center;
+    font-family: Cormorant Garamond, serif;
+    font-size: 25px;
+    width: 100%;
+    color: #4c177a;
+    padding: 20px;
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+    background-color: #dde8eb;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin: 10 px 0;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #dde8eb;
+    color: #011f4b;
+    font-family: Kanit, sans-serif;
+    font-size: 18px;
+    text-align: center !important;
+    justify-content: center;
+}
+
+nav a:hover { text-decoration: none; }
+
+main {
+    text-align: center;
+    background-color: #aecacf;
+    width: 100%;
+    color: #4c177a;
+    border: none;
+    padding: 0px;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+}
+
+
+img {
+    border: none;
+    width: 400px;
+    height: auto;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+footer {
+    margin-top: auto;
+    background-color: #011f4b;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+}
+
+
+
+button {
+
+    background-color: black;
+    border: 3px solid white;  
+    color: white;
+    margin: 1rem;
+    padding: 0.8rem;
+    min-width: 9rem;
+    font-size: 1.0rem;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    color: #F1B82D;
+}
+
+.button_holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-container {
+  display: flex;
+  align-items: center;
+}
+
+.gallery-image img {
+    border: 3px solid white; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    display: block;      
+    margin: 0 auto;   
+    width: 100%;         
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 23px;
+}
+
+.hideThis {
+    display: none;
+}
+
+.list-item {
+  display: flex;
+  flex direction: column;
+  justify-content: center;
+  height: 40vh;
+  margin: 10px;
+  border: 6px solid #000000;
+  padding: 5px;
+  align-items: center;
+  margin: 60px;
+
+}
+    
+
+@media screen and (max-width: 780px){
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 700px){
+
+
+main {
+  width: 100%;
+}
+
+
+p {
+  font-size: 1.0rem;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+
+.gallery-image img {
+  align-items: center;
+  display: flex;
+  max-width: 95%;
+  height: 290px;
+  width: 390px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 6px solid #0C2340;
+  padding: 10px;
+}
+
+
+
+
+.picture-centered-text {
+  display: flex;
+  flex-direction: column;
+  border-radius: .5rem;
+}
+
+.picture-centered-text p {
+  margin: auto;
+  font-size: 1rem;
+  padding: 6rem;
+  
+}
+
+.picture-centered-text a {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: right;
+     margin: 10px;
+}
+
+.picture-centered-text a img {
+
+  margin: auto;
+  max-width: 600px;
+
+  
+
+}
+
+footer {
+    margin-top: auto;
+    background-color: #011f4b;
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2.8rem;
+  margin-left: 1rem;
+  padding-left: 0.;
+}
+}
+
+@media screen and (max-width: 700px){
+
+
+main {
+  width: 100%;
+}
+
+
+p {
+  font-size: 1.0rem;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+
+
+@media (max-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 555px) {
+     body {
+        background-color: #dde8eb;
+}
+    }
+
+@media (max-width: 800px) {
+    body {
+        background-color: #dde8eb;
+    }
+}
